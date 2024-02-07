@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    width: 0;
+}
+
+body{
+    background-image: url(PUP_school_colors.png);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+   width: 900px;
+   color: maroon;
+   text-align: center;
+   font-weight: 500;
+   margin-left: 295px;
+   border: solid;
+   background-color: yellow;
+   border-color: #fff;
+   border-radius: 40px;
+  
+
+}
+
+h4{
+   width: 700px;
+   color: white;
+   text-align: center;
+   font-weight: 500;
+   margin-left: 385px;
+
+   
+  
+}
+ 
+h3{
+   width: 700px;
+   color: white;
+   text-align: center;
+   font-weight: 500;
+   margin-left: 385px;
+
+ 
+}
+
+img{
+    width: 1000px;
+    align-items: center;
+    margin-left: 250px;  
+
+}

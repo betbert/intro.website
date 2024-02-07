@@ -1,0 +1,277 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(jabx.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header img{
+    width: 100px;
+    border-radius: 50px;      
+    border-style: groove;
+   
+}
+
+header {
+    background-image: url(bg2.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+header h1{
+   color: transparent;
+   -webkit-text-stroke: 1px #fff;
+   background: url(text1.jpg);
+   -webkit-background-clip: text;
+   background-position: 0 0;
+   animation: back 20s linear infinite;
+
+
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    transition: 0.2s ease;
+    justify-content: center;
+    
+}
+
+nav ul:hover{
+    transform: scale(1.08);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+    width: 100%;
+   
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:active{
+    color: blue;
+}
+
+main {
+    max-width: 2000px;
+    /* margin: 20px auto; */
+    padding: 20px;
+    
+}
+
+.contact{
+    text-decoration: none;
+}
+
+.welcome{
+    text-align: center;
+    
+}
+
+section {
+    margin-bottom: 20px;
+    color: #fff;
+    border-style: groove;
+    border-radius: 40px;
+    padding: 10px;
+    
+
+}
+
+a{
+    color: yellow;
+}
+
+.social-icons a:hover{
+    color: yellow;
+}
+
+.slider{ 
+    height: 500px;
+    width: 1550px;
+    background: url(1.png);
+    animation: slide 15s infinite;
+   
+}
+
+@keyframes slide{
+    25%{
+        background: url(1.png);
+    }
+    50%{
+        background: url(2.png);
+    }
+    75%{
+        background: url(3.jpg);
+    }
+    100%{
+        background: url(4.jpg);
+    }
+    125%{
+        background: url(5.jpg);
+    }
+    
+    
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    border-style: none;
+
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: solid;
+    border-color: lightblue;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 10px 10px whitesmoke;
+}
+.item img:hover{
+    transform: scale(1.08);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+.item h4{
+    padding: 5px;
+    text-align: center;
+
+}
+
+.item button{
+    padding: 5px 30px;
+    border:  none;
+    outline: none;
+    background-color: maroon;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    transition: 0.2s all;
+
+}
+
+.item button:hover{
+    transform: scale(1.10);
+    color: yellow;
+
+}
+
+@media screen and (max-width: 1000px){
+    .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 768px){
+        .items{
+            grid-template-columns: repeat(1, 1fr);
+        }
+   
+}
+}
+
+footer {
+    background-color:maroon;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: xx-large;
+   
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.facebook:hover{
+    transform: scale(1.20);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+.instagram:hover{
+    transform: scale(1.20);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+.x:hover{
+    transform: scale(1.20);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+.spotify:hover{
+    transform: scale(1.20);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+.youtube:hover{
+    transform: scale(1.20);
+    transition: all 0 ease-in-out;
+    border-radius: 40px;
+}
+
+
+

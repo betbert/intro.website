@@ -1,0 +1,39 @@
+body{
+    background-image: url(PUP_school_colors.png);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    color: maroon;
+    text-align: center;
+    margin-top: 200px;
+    border: solid;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 30px;
+    background-color: yellow;
+    border-color: #fff;
+} 
+   
+
+h2{
+    color: maroon;
+    text-align: center;
+    border: solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    background-color: yellow;
+    border-color: #fff;
+
+}
+
+h3{
+    color:  #fff;
+    text-align: center;
+    border-color: #fff;
+}
